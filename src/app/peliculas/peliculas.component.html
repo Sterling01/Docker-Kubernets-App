@@ -1,0 +1,21 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Código</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Genero</th>
+        <th scope="col" class="precio2">Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{peliculas.codigo}}</th>
+        <td>{{peliculas.pelicula.titulo}}</td>
+        <td>{{peliculas.pelicula.descripcion}}</td>
+        <td class="precio2">{{peliculas.pelicula.precio}}</td>
+      </tr>
+    </tbody>
+</table>
+<div class="boton">
+  <button (click)="menu()" class="btn btn-primary">Regresar al menu</button>
+</div>

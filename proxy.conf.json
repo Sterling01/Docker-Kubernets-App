@@ -1,0 +1,12 @@
+{
+    "/helloworld-rs/*": {
+      "target": "http://192.168.1.15:8080",
+      "secure": false,
+      "logLevel": "debug"
+    },
+    "/registrocivil/*": {
+        "target": "http://104.196.98.38:8080",
+        "secure": false,
+        "logLevel": "debug"
+    }
+  }
